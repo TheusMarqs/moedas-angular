@@ -1,0 +1,32 @@
+
+h1,h4 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+#btn2 {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    box-shadow: none;
+}
+
+#btn2:hover {
+    opacity: 95%;
+}
+
+#calcular {
+    box-shadow: 1px 1px 3px 0 black;
+    width: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#resultado {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

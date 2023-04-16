@@ -1,0 +1,10 @@
+.container {
+    background-image: linear-gradient(to bottom, #259fd5, #3069b8);
+    border-radius: 0.5em;
+    height: 680px;
+    box-shadow: 1px 2px 2px 0 black;
+}
+
+body {
+    background-color: whitesmoke;
+}

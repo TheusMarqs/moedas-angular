@@ -1,0 +1,71 @@
+<div class="row mr-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-5">
+        <h1 class="mt-3 mb-5 ml-2">Conversor de moedas</h1>
+        <h4 class="mt-3">Digite o câmbio atual da libra</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Real</span>
+            </div>
+            <input type="number" id="valor" [(ngModel)] = "valor" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Digite o valor">
+        </div>
+    </div>
+</div>
+
+<div class="row mr-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-5">
+        <h4>Digite o câmbio atual da libra</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text moedas" id="inputGroup-sizing-default">Libra</span>
+            </div>
+            <input type="number" id="cambioLibra" [(ngModel)] = "cambioLibra" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Digite o câmbio">
+        </div>
+    </div>
+
+</div>
+
+<div class="row mr-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-5">
+        <h4>Digite o câmbio atual do dólar</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Dólar</span>
+            </div>
+            <input type="number" id="cambioDolar" [(ngModel)] = "cambioDolar" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Digite o câmbio">
+        </div>
+    </div>
+
+</div>
+
+<div class="row mr-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-5">
+        <h4>Digite o câmbio atual do euro</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Euro</span>
+            </div>
+            <input type="number" id="cambioEuro" [(ngModel)] = "cambioEuro" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Digite o câmbio">
+        </div>
+    </div>
+
+</div>
+<div class="row mt-1 mr-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-5">
+
+        <div class="input-group">
+            <textarea rows="3" id="resultado" [(ngModel)] = "resultado" disabled class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    </div>
+</div>
+
+<div class="row ml-5 mt-3">
+    <div class="col-md-4"></div>
+    <div class="col-md-5">
+        <button id="calcular" type="button" class="btn btn-primary" (click)="Calcular()">Calcular</button>
+    </div>
+</div>
